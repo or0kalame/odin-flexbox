@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+button {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding:10px;
+    border: none;
+}
+
+.introduction {
+    background-color: #1F2937;
+    padding: 10px 100px 150px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: -8px;
+}
+
+.introduction .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.introduction ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7ebbe
+}
+
+.introduction .media {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.introduction .text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    flex-shrink: 1;
+    padding: 10px;
+}
+
+.introduction .main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.introduction .text-under {
+    font-size: 18px;
+    color: #e5e7ebbe
+}
+
+.introduction button {
+    width: 140px;
+    background-color: #3882f2;
+}
+
+.introduction  .image {
+    flex-shrink: 0;
+}
+
+.introduction img {
+    height: 400px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px 100px 80px;
+    gap: 30px;
+
+}
+
+.random .media {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.random .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.gifs {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    gap: 8px;
+}
+
+.random img {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.random .text-under {
+    color: #949598;
+    align-self: center;
+    text-align: center;
+}
