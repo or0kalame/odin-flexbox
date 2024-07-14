@@ -12,8 +12,6 @@ button {
     font-size: 17px;
     color: #f9faf8;
     border-radius: 10px;
-    padding:10px;
-    border: none;
 }
 
 .introduction {
@@ -29,6 +27,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -45,7 +44,7 @@ button {
 
 a {
     text-decoration: none;
-    color: #e5e7ebbe
+    color: #e5e7ebbe;
 }
 
 .introduction .media {
@@ -75,8 +74,10 @@ a {
 }
 
 .introduction button {
+    padding:10px;
     width: 140px;
     background-color: #3882f2;
+    border: none;
 }
 
 .introduction  .image {
@@ -128,4 +129,87 @@ a {
     color: #949598;
     align-self: center;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7ebbe;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 80px 70px 80px;
+    margin: -8px;
+}
+
+.quote .text { 
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.quote .main-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937
+}
+
+.quote .author {
+    align-self: end;
+    font-weight: bold;
+}
+
+.notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 80px 70px 80px;
+}
+
+.notification .box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f2;
+    padding: 40px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.notification .title {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.notification .text-under {
+    color: #e5e7ebbe;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.notification button {
+    font-size: 14px;
+    background-color: #3882f2;
+    border-style: solid;
+    border-color: #f9faf8;
+    border-width: 2px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    margin: -8px;
+    padding: 40px;
+}
+
+.footer .text {
+    color: #f9faf8;
+    font-size: 16px;
 }
